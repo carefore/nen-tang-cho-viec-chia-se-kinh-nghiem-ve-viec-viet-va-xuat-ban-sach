@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chia sẻ kinh nghiệm viết sách</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h1>Chia sẻ kinh nghiệm viết sách</h1>
+
+<form id="bookForm" method="post">
+    <label for="title">Tiêu đề sách:</label>
+    <input type="text" id="title" name="title"><br><br>
+
+    <label for="author">Tác giả:</label>
+    <input type="text" id="author" name="author"><br><br>
+
+    <label for="content">Nội dung:</label><br>
+    <textarea id="content" name="content" rows="5" cols="40"></textarea><br><br>
+
+    <input type="submit" value="Gửi">
+</form>
+
+<div id="response"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
